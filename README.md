@@ -1,19 +1,39 @@
-# Portfolio Website
+# art-portfolio
 
-This is the repository for the portfolio website of a small designer based in Plovdiv, Bulgaria. The website is built with Vue.js and showcases the designer's work, skills, and services.
+This template should help get you started developing with Vue 3 in Vite.
 
-## About
+## Recommended IDE Setup
 
-This portfolio website is designed to highlight the work of Anita Balabosova - a small designer based in Plovdiv, Bulgaria. It serves as a digital representation of the designer's creativity and expertise, featuring web design, graphic design, and branding projects.
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## License
+## Type Support for `.vue` Imports in TS
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
----
+## Customize configuration
 
-For more information or to get in touch with the designer, please visit the website or use the contact form.
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-**Designer**: Anita Balabosova 
-**Location**: Plovdiv, Bulgaria  
+## Project Setup
 
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
